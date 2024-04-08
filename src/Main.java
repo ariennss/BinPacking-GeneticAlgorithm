@@ -56,7 +56,7 @@ public class Main {
             System.out.println("fitness = " + individual.fitness(totaleScatole, container));
         }
 
-        //DECOMMENTARE QUESTA PARTE PER INFO SUL FUNZIONAMENTO DEI METODI NELLO SPECIFICO
+        //DECOMMENTARE LA PARTE SOTTOSTANTE PER INFO SUL FUNZIONAMENTO DEI METODI NELLO SPECIFICO
  /*
         Individual[] genitori = population0.selection(totaleScatole, container);
         System.out.println("I genitori sono: ");
