@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-
         Container container = new Container(25, 30, 100, 100);
         TotBoxes totaleScatole = new TotBoxes();
         Box.setTotBoxesArray(totaleScatole);
@@ -58,7 +57,7 @@ public class Main {
         }
 
         //DECOMMENTARE QUESTA PARTE PER INFO SUL FUNZIONAMENTO DEI METODI NELLO SPECIFICO
-
+ /*
         Individual[] genitori = population0.selection(totaleScatole, container);
         System.out.println("I genitori sono: ");
         System.out.println(Arrays.toString(genitori));
@@ -83,7 +82,7 @@ public class Main {
         }
 
 
-
+*/
 
         Population ultimaGenerazione = population0.repeatReproduction(totaleScatole, container);
         System.out.println(ultimaGenerazione);
